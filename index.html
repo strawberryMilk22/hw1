@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="signup-container">
+        <form action="#" method="post">
+            <h2>Sign Up</h2>
+            <div class="form-group flex-row">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="mobile_no" placeholder="Mobile No." required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group flex-row">
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="agree" required> <strong>I Agree</strong>
+            </div>
+            <div class="form-group">
+                <p class="agreement-text">By clicking <span class="register-btn-text">Register</span>, you agree to the <span class="terms-text">Terms and Conditions</span> set by this site, including our Cookie Use.</p>
+            </div>
+            <div class="form-group flex-row">
+                <button type="submit" class="btn btn-register">Register</button>
+                <button type="button" class="btn btn-signin">Sign In</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

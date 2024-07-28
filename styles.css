@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row input[type="text"],
+.flex-row input[type="password"],
+.flex-row input[type="tel"],
+.flex-row input[type="email"] {
+    width: calc(50% - 10px);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.agreement-text {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+}
+
+.terms-text {
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+}
+
+.register-btn-text {
+    color: #5589C5;
+    cursor: pointer;
+}
+
+.btn {
+    width: calc(50% - 5px);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.btn-register {
+    background-color: #5589C5;
+}
+
+.btn-signin {
+    background-color: #74B666;
+}
